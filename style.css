@@ -71,6 +71,7 @@ LANDING
   display: flex;
   flex-direction: column;
   background-color: #fff;
+  padding: 0px 32px;
 }
 
 /* 
@@ -1408,19 +1409,5 @@ MEDIA QUERIES
   .footer__bottom {
     flex-direction: column;
     text-align: center;
-  }
-}
-
-@media (min-width: 1024px) {
-  #features .section__title {
-    font-size: 44px;
-  }
-
-  .feature__title {
-    font-size: 22px;
-  }
-
-  .feature__para {
-    font-size: 16px;
   }
 }
