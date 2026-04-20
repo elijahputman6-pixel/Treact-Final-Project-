@@ -34,15 +34,15 @@ section {
 /* GLOBAL UTILITIES */
 
 .container {
-  max-width: 1280px;
+  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 32px;
 }
 
 .row {
   width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   margin-top: 0;
   padding-top: 0;
@@ -429,7 +429,7 @@ FEATURES
 */
 
 #features {
-  min-height: unset;
+  min-height: auto;
   font-size: 40px;
   padding-top: 20px;
   margin-top: 0;
@@ -1511,7 +1511,7 @@ MEDIA QUERIES
 
  */
   section {
-    padding: 80px 0;
+    padding: 40px 0;
   }
 
   .container {
