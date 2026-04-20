@@ -24,7 +24,7 @@ main {
 }
 
 section {
-  padding: 60px 32px;
+  padding: 40px 0;
 }
 
 .section__title {
@@ -32,6 +32,13 @@ section {
 }
 
 /* GLOBAL UTILITIES */
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 80px;
+}
 
 .row {
   width: 100%;
@@ -302,7 +309,8 @@ HEADER
 */
 
 .header {
-  padding: 35px 0;
+  padding: 20px 0;
+  margin-bottom: 0;
   min-height: 80vh;  
   display: flex;
   align-items: left;
@@ -416,6 +424,8 @@ FEATURES
 #features {
   min-height: 100vh;
   font-size: 40px;
+  padding-top: 20px;
+  margin-top: 0;
   line-height: 1.2;
   display: flex;
   align-items: center;  
