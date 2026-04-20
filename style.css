@@ -24,7 +24,7 @@ main {
 }
 
 section {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 .section__title {
@@ -312,6 +312,7 @@ HEADER
 
 header {
   padding-bottom: 20px;
+  margin-bottom: 40px;
   min-height: auto;
 }
 
@@ -321,6 +322,11 @@ header {
   min-height: 80vh;  
   display: flex;
   align-items: left;
+}
+
+header,
+.header {
+  min-height: 70vh;
 }
 
 header .row {
