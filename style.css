@@ -333,19 +333,27 @@ header {
 header .row {
   display: flex;
   flex-direction: row;
-  align-items: left;
+  align-items: stretch;
   justify-content: space-between;
   gap: 40px;
 }
 
-.header__description * {
+.header__description {
   max-width: 500px;
   width: 100%;
+  height: 100%;
   text-align: left;
 }
 
 .header__title {
   margin-bottom: 16px;
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+.header__description--para {
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 .header__title span {
